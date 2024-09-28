@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog App</title>
+</head>
+<link rel="stylesheet" href="./styles/index.css">
+<style>
+
+</style>
+<body>
+    <nav>
+        <div class="filter-post">
+            <div class="filter all">All</div>
+            <div class="filter sports">Sports</div>
+            <div class="filter technology">Technology</div>
+            <div class="filter movies">Movies</div>
+            <div class="filter food">Food</div>
+            <div class="filter education">Education</div>
+        </div>
+        <div class="crud-post">
+            <div class="crud add-post">Add</div>
+            <div class="crud remove-post">Remove</div>
+        </div>
+    </nav>
+    <div class="post-container"></div>
+
+    <!-- Add Post Modal -->
+     <div class="add-post-modal">
+        <div class="userNameContainer">
+            <label for="userName">User Name:</label>
+            <input type="text" name="userName" id="userName">
+        </div>
+        <div class="userImageContainer">
+            <label for="userImage">Image:</label>
+            <input type="file" name="userImage" id="userImage">
+        </div>
+        <div class="userCaptionContainer">
+            <label for="userCaption">Caption:</label>
+            <textarea name="userCaption" id="userCaption"></textarea>
+        </div>
+        <button id="uploadPost">Upload</button>
+     </div>
+
+     <div class="view-current-post-container">
+        <!-- Post are viewed here -->
+     </div>
+    <script src="https://kit.fontawesome.com/317a7d3e66.js" crossorigin="anonymous"></script>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>

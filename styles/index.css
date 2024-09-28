@@ -1,0 +1,196 @@
+    *{
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    body{
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+    .post-container{
+        padding: 22px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+    
+    .post-card{
+        width: 210px;
+        height: 320px;
+        border-radius: 5%;
+        box-shadow: 6px 6px 6px gray;
+        color: gray;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position:relative;
+    }
+    .post-img{
+        width: 210px;
+        height: 250px;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        background-position: center;
+    }
+    .post-actions{
+        width: 210px;
+        height: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .like-action:hover,
+    .comment-action:hover,
+    .share-action:hover{
+        cursor: pointer;
+        color: red;
+    }
+
+    #post-id{
+        position: absolute;
+        margin-left: 5%;
+        text-align: right;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    .post-caption{
+        width: 210px;
+        height: 35px;
+        padding: 5px;
+        font-size: 0.8rem;
+        overflow-y:hidden;
+    }
+
+    .likes-count-card,
+    .comments-count-card,
+    .shares-count-card{
+        font-size: 0.8rem;
+    }
+
+    nav{
+        background-color: #EEEDE7;
+        margin-bottom: 5px;
+        padding-top: 5px;
+        height: 50px;
+        color: gray;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        text-shadow: 1px 1px 1px gray;
+    }
+    .filter-post{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .crud-post{
+        width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .filter:hover,
+    .crud:hover{
+        cursor: pointer;
+        color: red;
+    }
+
+    .add-post-modal{
+        width: 300px;
+        height: 300px;
+        font-size: 14px;
+        padding: 5px;
+        color: gray;
+        box-shadow: 6px 6px 6px gray;
+        display: none;
+        flex-direction: column;
+        justify-content:space-between;
+
+        /* Center the modal on the screen */
+        position: fixed; /* Position relative to the viewport */
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjust for its own width and height */
+        background-color: white; /* Add a background color */
+        z-index: 1000; /* Ensure it's above other content */
+    }
+
+    #userName,
+    textarea{
+        border: none;
+        outline: none;
+        border: 1px solid gray;
+        margin: 1px;
+        padding: 2px;
+        font-size: 20px;
+        resize: none;
+    }
+    label{
+        font-size: 12px;
+    }
+    #uploadPost{
+        color: white;
+        background-color: rgb(32, 32, 32);
+        border: none;
+        outline: none;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .view-current-post{
+        width: 600px;
+        height: 600px;
+        font-size: 14px;
+        padding: 5px;
+        color: gray;
+        box-shadow: 6px 6px 6px gray;
+        display: none;
+        flex-direction: column;
+        justify-content:space-between;
+
+        /* Center the modal on the screen */
+        position: fixed; /* Position relative to the viewport */
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjust for its own width and height */
+        background-color: white; /* Add a background color */
+        z-index: 1000; /* Ensure it's above other content */
+    }
+
+    #view-current-post-close{
+        cursor: pointer;
+        font-size: 1.8rem;
+        text-align: right;
+    }
+
+    .view-current-post-img{
+        width: 100%;
+        height: 70%;
+        background-position: center;
+    }
+    .view-current-post-actions{
+        cursor: pointer;
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .view-current-post #post-id{
+        display: none;
+    }
+
+/* Media query for mobile phones */
+@media (max-width: 768px) {
+  .post-container {
+    justify-content: center; /* Change justify-content for smaller screens */
+  }
+  .post-card,
+  .post-img,
+  .view-current-post{
+    width: 98%;
+  }
+}
