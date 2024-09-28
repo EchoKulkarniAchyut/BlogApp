@@ -15,7 +15,8 @@ const postData = [
   {
     id: "iuhis98e319",
     genre: "technology",
-    image: "../images/technology1.jpg",
+    image:
+      "https://echokulkarniachyut.github.io/BlogApp/images/technology1.jpg",
     caption:
       "Blockchain technology is a decentralized digital ledger that records transactions across multiple computers, ensuring security and transparency. Each transaction, grouped into blocks, is linked to the previous one, creating a secure chain. This technology underpins cryptocurrencies like Bitcoin and Ethereum but extends beyond finance, offering potential applications in supply chain management, healthcare, and voting systems. By eliminating intermediaries, blockchain can reduce costs and enhance efficiency. Its immutable nature increases trust among participants, making it a transformative force in various industries, paving the way for innovative solutions and new business models.",
     timeStamp: "2024-08-26 12:15",
@@ -27,7 +28,7 @@ const postData = [
   {
     id: "hf95s36dn",
     genre: "food",
-    image: "../images/food1.jpg",
+    image: "https://echokulkarniachyut.github.io/BlogApp/images/food1.jpg",
     caption:
       "Vegetarian food consists of dishes made from plant-based ingredients, excluding meat, fish, and poultry. This diet offers numerous health benefits, including lower risks of chronic diseases such as heart disease, diabetes, and obesity. Rich in fruits, vegetables, whole grains, and legumes, vegetarian meals provide essential nutrients, fiber, and antioxidants. Additionally, adopting a vegetarian lifestyle can have positive environmental impacts, as it reduces carbon footprints and resource consumption associated with meat production. With a diverse range of cuisines and recipes available, vegetarian food can be both delicious and satisfying, appealing to a wide audience.",
     timeStamp: "2024-08-26 12:15",
@@ -39,7 +40,7 @@ const postData = [
   {
     id: "f5r6x7q9t",
     genre: "education",
-    image: "../images/education1.jpg",
+    image: "https://echokulkarniachyut.github.io/BlogApp/images/education1.jpg",
     caption:
       "Education is a fundamental pillar of society, fostering personal growth and societal progress. It equips individuals with essential knowledge and skills, empowering them to navigate the complexities of the world. Education promotes critical thinking, creativity, and problem-solving abilities, preparing students for future challenges. Beyond academics, it nurtures values such as empathy, respect, and collaboration, shaping responsible citizens. Access to quality education is crucial for reducing inequality and driving economic development. As technology evolves, integrating innovative teaching methods and lifelong learning becomes essential, ensuring that education remains relevant in an ever-changing landscape.",
     timeStamp: "2024-08-26 12:15",
@@ -51,7 +52,7 @@ const postData = [
   {
     id: "e8732buqep",
     genre: "sports",
-    image: "../images/sports2.jpg",
+    image: "https://echokulkarniachyut.github.io/BlogApp/images/sports2.jpg",
     caption:
       "Football, known as soccer in some countries, is the world’s most popular sport, played by two teams of eleven players. The game’s objective is to score by getting the ball into the opposing team’s goal using any body part except the hands and arms (except for the goalkeeper). Played professionally and recreationally across the globe, football’s simplicity and excitement have made it a universal sport. Major tournaments like the FIFA World Cup captivate millions of fans, while clubs and national teams foster immense loyalty and passion from supporters worldwide",
     timeStamp: "2024-08-26 12:15",
@@ -63,7 +64,7 @@ const postData = [
   {
     id: "ufw8e29221",
     genre: "movies",
-    image: "../images/movie1.jpg",
+    image: "https://echokulkarniachyut.github.io/BlogApp/images/movie1.jpg",
     caption:
       "The latest Kannada movie, K.G.F: Chapter 2, has garnered immense attention and acclaim, captivating audiences with its gripping storyline and stunning visuals. Continuing the saga of Rocky, portrayed by Yash, the film delves into his rise to power and the challenges he faces in the gold mining underworld. Directed by Prashanth Neel, it features a stellar cast and exceptional production quality. The film's high-octane action sequences and powerful performances resonate with viewers, making it a blockbuster hit. K.G.F: Chapter 2 not only entertains but also showcases the richness of Kannada cinema on a global stage.",
     timeStamp: "2024-08-26 12:15",
@@ -75,7 +76,8 @@ const postData = [
   {
     id: "leg09mi09",
     genre: "technology",
-    image: "../images/technology2.jpg",
+    image:
+      "https://echokulkarniachyut.github.io/BlogApp/images/technology2.jpg",
     caption:
       "Java is a versatile and widely-used programming language in software development, known for its portability, security, and robustness. Designed with the principle of write once, run anywhere, Java enables developers to create applications that can run on any platform with a Java Virtual Machine (JVM). Its object-oriented nature promotes code reusability and maintainability, making it a preferred choice for large-scale enterprise applications, web development, and mobile applications through frameworks like Spring and Android. With a strong community and extensive libraries, Java continues to be a foundational technology in the software development industry.",
     timeStamp: "2024-08-26 12:15",
