@@ -3,7 +3,7 @@ const postData = [
   {
     id: "yfw76t27r",
     genre: "sports",
-    image: "../images/sports1.jpg",
+    image: "https://echokulkarniachyut.github.io/BlogApp/images/sports1.jpg",
     caption:
       "Cricket is a globally popular sport that originated in England and has since captivated millions worldwide. Played between two teams of eleven players, the game involves batting, bowling, and fielding. The objective is for one team to score runs while the other team tries to limit runs and dismiss players. Cricket is played in different formats, from the traditional five-day Test matches to the fast-paced Twenty20 games. The sport is especially popular in countries like India, Australia, and England, where it enjoys a massive fan following and cultural significance.",
     timeStamp: "2024-08-26 12:15",
