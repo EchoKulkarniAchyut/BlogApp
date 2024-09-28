@@ -162,7 +162,8 @@
         z-index: 1000; /* Ensure it's above other content */
     }
 
-    #view-current-post-close{
+    #view-current-post-close,
+    #add-post-modal-close{
         cursor: pointer;
         font-size: 1.8rem;
         text-align: right;

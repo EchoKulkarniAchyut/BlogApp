@@ -107,6 +107,7 @@ postData.forEach((data) => {
 })
 
 
+
 // post filter event
 const filter = document.querySelectorAll(".filter");
 filter.forEach((ele) => {
@@ -135,7 +136,13 @@ addPostButton.addEventListener('click', () => {
   showaddPostModal = !showaddPostModal
   const addPostModal = document.querySelector('.add-post-modal')
   if (showaddPostModal) {
-    addPostModal.style.display = 'flex'
+    addPostModal.style.display = "flex";
+    //close button of add post
+    const closeButton = document.querySelector("#add-post-modal-close");
+    closeButton.addEventListener("click", () => {
+      // showaddPostModal = !showaddPostModal
+      addPostModal.style.display = "none"
+    });
   }
   else {
     addPostModal.style.display = 'none'
